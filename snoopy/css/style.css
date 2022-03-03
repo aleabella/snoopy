@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+background-image: url(../IMG/fondo.jpg);
+background-repeat: no-repeat;
+}
+
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--ligh-color:#F3F3F3;
+    --yellow-color: rgb(252,254,180);
+    --blue-color: rgb(183,228,251);
+}
+
+
+h1,h2,h3 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--ligh-color);
+}
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+
+header{
+    display: flex;
+  
+    justify-content:flex-start;
+    align-items: center;
+    padding: 0.5px;
+
+}
+
+.logo img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.b-azul{
+  
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border-color:var(--yellow-color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(gray);
+}
+.b-azul:hover{
+    color: gray;
+    background: var(--yellow-color);
+
+}
+.b-ama{
+
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border-color:var(--blue-color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(gray)
+}
+
+.b-ama:hover{
+    color:var(--white-color);
+    background: var(--blue-color);
+
+}
+nav{
+    display: flex;
+    background-color: var(--purple-color);
+
+}
+
+.item{
+    padding: 1rem;
+    color:var(--white-color);
+    border: var(--dark-color);
+    text-decoration: none;
+   justify-content: space-around;
+   padding: auto;
+   
+  
+}
+
+.item:hover{
+    color: rgba(255,255,255,0.4);
+    border-bottom: 2px solid var(--white-color);
+}
+
+#snop{
+ display: flex;
+ margin-top: 0.1rem;
+}
+
+.frase{
+    flex-basis: 40%;
+    background-color: rgb(252,254,180);
+    padding: 5rem;
+}
+.frase h1{
+    color: var(--dark-color);
+    font-size: 28px;
+    text-transform: uppercase ;
+}
+
+.frase h3{
+    color: var(--dark-color);
+    font-size: 18px;
+    text-transform: uppercase ;
+    font-weight: 600;
+}
+
